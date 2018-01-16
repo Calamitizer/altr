@@ -1,0 +1,19 @@
+{
+  "name": "altr",
+  "version": "1.0.0",
+  "description": "A substance tracker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calamitizer/and-how.git"
+  },
+  "author": "J. Alex Ruble (Calamitizer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Calamitizer/and-how/issues"
+  },
+  "homepage": "https://github.com/Calamitizer/and-how#readme"
+}
