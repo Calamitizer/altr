@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Calamitizer/and-how/issues"
   },
-  "homepage": "https://github.com/Calamitizer/and-how#readme"
+  "homepage": "https://github.com/Calamitizer/and-how#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
 }

@@ -1,0 +1,9 @@
+npm-debug.log*
+node_modules/
+.npm
+.eslintcache
+.node_repl_history
+*.swp
+*.env
+npm-debug.log # Heroku
+tasks
