@@ -10,7 +10,7 @@
 
     var config = {
         context: __dirname,
-        entry: path.join(dir.in, 'entry.js'),
+        entry: path.join(dir.in, 'altr/altr.jsx'),
         output: {
             path: dir.out,
             filename: 'bundle.js',
@@ -18,10 +18,10 @@
         module: {
             loaders: [
                 {
-                    test: /\.js$/,
+                    test: /\.jsx?$/,
                     include: dir.in,
                     exclude: /node_modules/,
-                    loader: 'babel',
+                    loader: 'babel-loader',
                 },
                 {
                     test: /\.json$/,

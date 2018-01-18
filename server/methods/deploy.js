@@ -11,8 +11,8 @@
     var path = require('path');
     var http = require('http');
 
-    var assetRouter = require('./routers/asset.js');
-    var siteRouter = require('./routers/site.js');
+    var assetRouter = require('../routers/asset.js');
+    var siteRouter = require('../routers/site.js');
 
     var ALTR = express();
 

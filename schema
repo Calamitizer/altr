@@ -1,0 +1,23 @@
+
+
+
+
+
+Person
+    Drug History
+    Days
+        Drug History on all days
+            Use
+                Substance
+                    Quantity
+                    Unit
+                        mg,
+                        g,
+                        line,
+                            dose
+                        pill,
+                            dose
+                        tab,
+                            dose
+                    Time
+                    ROA

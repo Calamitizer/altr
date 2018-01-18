@@ -38,8 +38,8 @@
                 '!' + dir.in + '/less-common/*.less', // these will be imported
             ],
         },
-        js: {
-            in: path.join(dir.in, 'entry.js'),
+        jsx: {
+            in: path.join(dir.in, '/altr/altr.jsx'),
             out: path.join(dir.out, 'bundle.js'),
         },
         img: {
@@ -97,10 +97,10 @@
         );
     });
 
-    gulp.task('js', function() {
+    gulp.task('jsx', function() {
         return (
             gulp
-                .src(files.js.in)
+                .src(files.jsx.in)
                 .pipe(webpack(wpConfig))
                 .pipe(gulp.dest(dir.out))
         );
@@ -123,7 +123,7 @@
             [
                 'html',
                 'less',
-                'js',
+                'jsx',
                 'img',
             ]
         );
